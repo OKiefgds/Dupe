@@ -1,0 +1,83 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+ 
+local UI = Material.Load({
+     Title = " Pet Simulator Dupe - v0.0.2",
+     Style = 1,
+     SizeX = 300,
+     SizeY = 250,
+     Theme = "Dark"
+})
+ 
+local Page = UI.New({
+    Title = "DUPE"
+})
+ 
+local Page2 = UI.New({
+    Title = "Pet ID"
+})
+ 
+local Page3 = UI.New({
+    Title = "Credits"
+})
+ 
+ 
+--Dupe
+ 
+Page.Button({
+    Text = " Dupe",
+    Callback = function()
+       local lp = game.Players.LocalPlayer
+ 
+while wait() do
+    lp:kick("                                       you have been banned for duping                                 Contact support in discord.gg/biggames")
+end
+       print("Retard!") 
+    end
+})
+ 
+Page.TextField({
+    Text = " Type id here",
+    Callback = function()
+       print("Retard!") 
+    end
+})
+ 
+ 
+ 
+--Petid
+Page2.Button({
+    Text = " Dark matter M2 mythical - 401",
+    Callback = function()
+       print("Retard!") 
+    end
+})
+ 
+Page2.Button({
+    Text = " Dark matter techno cat - 386",
+    Callback = function()
+       print("Retard!") 
+    end
+})
+ 
+Page2.Button({
+    Text = " More Soon..",
+    Callback = function()
+       print("Retard!") 
+    end
+})
+ 
+--credits
+ 
+Page3.Button({
+    Text = " Made by OKie#6703",
+    Callback = function()
+       print("Retard!") 
+    end
+})
+ 
+Page3.Button({
+    Text = " Discord.gg/EzPets",
+    Callback = function()
+       print("Retard!") 
+    end
+})
